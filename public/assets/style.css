@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+@font-face{
+    font-family:Antique;
+    src:url(/build/fonts/Antique-Regular.e3ded4cd.otf)
+    format("opentype")
+}
+
+@font-face{
+    font-family:Archane;
+    src:url(/build/fonts/Archane.3c5f12db.woff2)
+    format("woff2")
+}
+
+.background-home{
+    background:url(/build/images/img-homepage.f447db3f.webp)
+    50%;
+    background-size:cover;
+    border-radius:10px;
+    height:450px
+}
+
+.background-end{
+    background:url(/build/images/img-backgroundend.3474363a.webp)
+    50%;
+    background-size:cover;
+    border-radius:10px;
+    height:450px
+}
+
+.title-background{
+    backdrop-filter:brightness(40%);
+    padding:10px
+}
+
+
+.card__img{
+    height: 100%;
+    min-height: 200px;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    border-radius: 8px;
+}
+
+
+.text-color{
+    color: black;
+    font-weight: bold;
+}
+.hr-center {
+    margin: 0 auto;
+}
+
+.coul-foot{
+    background-color: black;
+}
+
+.test{
+    width:100%;
+    height:100%;
+
+}
+.background-home{
+    border-radius: 8px;
+
+}
+
+

@@ -1,0 +1,15 @@
+{% extends '@EasyAdmin/page/content.html.twig' %}
+{% block configured_javascripts %}
+    {{ encore_entry_script_tags('app') }}
+{% endblock %}
+
+{% block main %}
+<h1 class="text-center fs-3">Bonjour {{ app.user.firstname }}, bienvenue sur votre espace !<br> <a class="fs-4 text-decoration-underline" href="{{ path('app_home') }}">Revenir sur le site</a></h1>
+    <div class="d-flex align-items-center flex-column mt-4">
+        <div class="p-3 border rounded-3 border-white">
+            <h2 class="text-center">Tableau des ventes du mois de {{ 'now'| format_datetime(locale='fr', pattern="MMMM") | upper  }}</h2>
+            <p class="text-center fs-4">Voici le nombre de réservations effectué ce mois-ci par hôtels </p>
+            {{ render_chart(chart) }}
+        </div>
+    </div>
+{% endblock %}

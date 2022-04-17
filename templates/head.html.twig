@@ -1,0 +1,30 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="robots" content="all">
+    <meta name="description" content="Hypnos est un groupe hôtelier fondé en 2004. Propriétaire de 7 établissements dans les quatre
+coins de l’hexagone, chacun de ces hôtels s’avère être une destination idéale pour les couples
+en quête d’un séjour romantique à deux.
+Chaque suite au design luxueux inclut des services hauts de gamme (un spa privatif
+notamment), de quoi plonger pleinement dans une atmosphère chic-romantique.
+Hypnos souhaiterait ne pas dépendre uniquement de sites tiers comme Booking.com pour la
+location de ses chambres. C’est pourquoi le groupe hôtelier aimerait être pourvu de son
+propre système de réservation sur un nouveau site web.
+Information importante : Le paiement n'est pas une fonctionnalité à envisager, car il se fait
+obligatoirement sur place.
+">
+    <title>{% block title %}Groupe Hôtelier Hypnos{% endblock %}</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('img/favicon/apple-touch-icon.png') }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('img/favicon/favicon-32x32.png') }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('img/favicon/favicon-16x16.png') }}">
+    <script src="https://kit.fontawesome.com/e98cd34f75.js" crossorigin="anonymous"></script>
+    {% block stylesheets %}
+        <link href="{{ asset('assets/style.css') }}" rel="stylesheet" type="text/css"/>
+        {{ encore_entry_link_tags('app') }}
+    {% endblock %}
+
+    {% block javascripts %}
+        {{ encore_entry_script_tags('app') }}
+    {% endblock %}
+</head>

@@ -1,0 +1,48 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hypnos | Réservation{% endblock %}
+
+{% block content %}
+    <main>
+        <article class="container mt-3">
+            <section class="background-home">
+                <div class="d-flex h-75 flex-column justify-content-end text-center align-items-center">
+                    <h1 class="title-background">Vous y êtes presque !</h1>
+                </div>
+            </section>
+            <section class="mt-3">
+                {{ form_start(form, {'attr': {'class' : 'row d-flex justify-content-arround', 'id' : 'form_reservation'} }) }}
+                    <div class="col-6 col-md-2">
+                        {{ form_row(form.start_date) }}
+                    </div>
+                    <div class="col-6 col-md-2">
+                        {{ form_row(form.end_date) }}
+                    </div>
+                    <div class="col-6 col-md-3">
+                        {{ form_row(form.hotels) }}
+                    </div>
+                    <div class="col-6 col-md-3">
+                        {{ form_row(form.hotelRooms) }}
+                    </div>
+                    <div class="col-md-2 d-flex justify-content-center align-items-end">
+                        {{ form_row(form.Rechercher) }}
+                    </div>
+                {{ form_end(form) }}
+            </section>
+            <section id="result">
+                {% if data is not null %}
+                    {% include 'reservation/HotelRoomsFilter.html.twig' %}
+                {% endif %}
+                {% if reservationExisting is null %}
+                    <p class="text-center text-warning">La suite recherchée n'est malheureusement pas disponible pour ces dates... Veuillez en choisir une autre</p>
+                {% endif %}
+            </section>
+        </article>
+    </main>
+{% endblock %}
+
+{% block body_javascript %}
+    <script type="module" src="{{ asset('assets/datepicker/datepicker.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('assets/datepicker/datepickerload.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('assets/form-reservation-ajax.js') }}"></script>
+{% endblock %}
