@@ -1,0 +1,90 @@
+<?php //623a314191c0e274ff2d94b41cb3bd04
+
+return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+    $o = [
+        clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Query\\ParserResult'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Query\\ParserResult')),
+        clone ($p['Doctrine\\ORM\\Query\\Exec\\SingleSelectExecutor'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Query\\Exec\\SingleSelectExecutor')),
+        clone ($p['Doctrine\\ORM\\Query\\ResultSetMapping'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Query\\ResultSetMapping')),
+    ],
+    null,
+    [
+        'Doctrine\\ORM\\Query\\ParserResult' => [
+            '_sqlExecutor' => [
+                $o[1],
+            ],
+            '_resultSetMapping' => [
+                $o[2],
+            ],
+            '_parameterMappings' => [
+                [
+                    'hotel' => [
+                        0,
+                    ],
+                    'ORMQueryBuilderLoader_getEntitiesByIds_id' => [
+                        1,
+                    ],
+                ],
+            ],
+        ],
+        'Doctrine\\ORM\\Query\\Exec\\AbstractSqlExecutor' => [
+            '_sqlStatements' => [
+                1 => 'SELECT h0_.id AS id_0, h0_.title AS title_1, h0_.description AS description_2, h0_.price AS price_3, h0_.booking_link AS booking_link_4, h0_.file AS file_5, h0_.hotels_id AS hotels_id_6 FROM hotel_rooms h0_ WHERE h0_.hotels_id = ? AND h0_.id IN (?)',
+            ],
+        ],
+        'stdClass' => [
+            'aliasMap' => [
+                2 => [
+                    'h' => 'App\\Entity\\HotelRooms',
+                ],
+            ],
+            'fieldMappings' => [
+                2 => [
+                    'id_0' => 'id',
+                    'title_1' => 'title',
+                    'description_2' => 'description',
+                    'price_3' => 'price',
+                    'booking_link_4' => 'booking_link',
+                    'file_5' => 'file',
+                ],
+            ],
+            'typeMappings' => [
+                2 => [
+                    'hotels_id_6' => 'integer',
+                ],
+            ],
+            'entityMappings' => [
+                2 => [
+                    'h' => null,
+                ],
+            ],
+            'metaMappings' => [
+                2 => [
+                    'hotels_id_6' => 'hotels_id',
+                ],
+            ],
+            'columnOwnerMap' => [
+                2 => [
+                    'id_0' => 'h',
+                    'title_1' => 'h',
+                    'description_2' => 'h',
+                    'price_3' => 'h',
+                    'booking_link_4' => 'h',
+                    'file_5' => 'h',
+                    'hotels_id_6' => 'h',
+                ],
+            ],
+            'declaringClasses' => [
+                2 => [
+                    'id_0' => 'App\\Entity\\HotelRooms',
+                    'title_1' => 'App\\Entity\\HotelRooms',
+                    'description_2' => 'App\\Entity\\HotelRooms',
+                    'price_3' => 'App\\Entity\\HotelRooms',
+                    'booking_link_4' => 'App\\Entity\\HotelRooms',
+                    'file_5' => 'App\\Entity\\HotelRooms',
+                ],
+            ],
+        ],
+    ],
+    $o[0],
+    []
+); }];

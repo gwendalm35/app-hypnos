@@ -67,10 +67,10 @@ class Users extends \App\Entity\Users implements \Doctrine\ORM\Proxy\Proxy
     public function __sleep()
     {
         if ($this->__isInitialized__) {
-            return ['__isInitialized__', '' . "\0" . 'App\\Entity\\Users' . "\0" . 'id', '' . "\0" . 'App\\Entity\\Users' . "\0" . 'email', '' . "\0" . 'App\\Entity\\Users' . "\0" . 'roles', '' . "\0" . 'App\\Entity\\Users' . "\0" . 'password', '' . "\0" . 'App\\Entity\\Users' . "\0" . 'firstname', '' . "\0" . 'App\\Entity\\Users' . "\0" . 'lastname', '' . "\0" . 'App\\Entity\\Users' . "\0" . 'hotels', '' . "\0" . 'App\\Entity\\Users' . "\0" . 'reservation_rooms', '' . "\0" . 'App\\Entity\\Users' . "\0" . 'fullname', '' . "\0" . 'App\\Entity\\Users' . "\0" . 'nameHotel'];
+            return ['__isInitialized__', '' . "\0" . 'App\\Entity\\Users' . "\0" . 'id', '' . "\0" . 'App\\Entity\\Users' . "\0" . 'email', '' . "\0" . 'App\\Entity\\Users' . "\0" . 'roles', '' . "\0" . 'App\\Entity\\Users' . "\0" . 'password', '' . "\0" . 'App\\Entity\\Users' . "\0" . 'firstname', '' . "\0" . 'App\\Entity\\Users' . "\0" . 'lastname', '' . "\0" . 'App\\Entity\\Users' . "\0" . 'hotels', '' . "\0" . 'App\\Entity\\Users' . "\0" . 'reservation_rooms'];
         }
 
-        return ['__isInitialized__', '' . "\0" . 'App\\Entity\\Users' . "\0" . 'id', '' . "\0" . 'App\\Entity\\Users' . "\0" . 'email', '' . "\0" . 'App\\Entity\\Users' . "\0" . 'roles', '' . "\0" . 'App\\Entity\\Users' . "\0" . 'password', '' . "\0" . 'App\\Entity\\Users' . "\0" . 'firstname', '' . "\0" . 'App\\Entity\\Users' . "\0" . 'lastname', '' . "\0" . 'App\\Entity\\Users' . "\0" . 'hotels', '' . "\0" . 'App\\Entity\\Users' . "\0" . 'reservation_rooms', '' . "\0" . 'App\\Entity\\Users' . "\0" . 'fullname', '' . "\0" . 'App\\Entity\\Users' . "\0" . 'nameHotel'];
+        return ['__isInitialized__', '' . "\0" . 'App\\Entity\\Users' . "\0" . 'id', '' . "\0" . 'App\\Entity\\Users' . "\0" . 'email', '' . "\0" . 'App\\Entity\\Users' . "\0" . 'roles', '' . "\0" . 'App\\Entity\\Users' . "\0" . 'password', '' . "\0" . 'App\\Entity\\Users' . "\0" . 'firstname', '' . "\0" . 'App\\Entity\\Users' . "\0" . 'lastname', '' . "\0" . 'App\\Entity\\Users' . "\0" . 'hotels', '' . "\0" . 'App\\Entity\\Users' . "\0" . 'reservation_rooms'];
     }
 
     /**

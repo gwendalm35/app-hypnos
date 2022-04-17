@@ -1,0 +1,69 @@
+<?php //95216f7dfbd214d06028ecfbbc381cda
+
+return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+    $o = [
+        clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Query\\ParserResult'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Query\\ParserResult')),
+        clone ($p['Doctrine\\ORM\\Query\\Exec\\SingleSelectExecutor'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Query\\Exec\\SingleSelectExecutor')),
+        clone ($p['Doctrine\\ORM\\Query\\ResultSetMapping'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Query\\ResultSetMapping')),
+    ],
+    null,
+    [
+        'Doctrine\\ORM\\Query\\ParserResult' => [
+            '_sqlExecutor' => [
+                $o[1],
+            ],
+            '_resultSetMapping' => [
+                $o[2],
+            ],
+        ],
+        'Doctrine\\ORM\\Query\\Exec\\AbstractSqlExecutor' => [
+            '_sqlStatements' => [
+                1 => 'SELECT h0_.id AS id_0, h0_.name AS name_1, h0_.address AS address_2, h0_.city AS city_3, h0_.description AS description_4, h0_.file_hotel AS file_hotel_5 FROM hotels h0_',
+            ],
+        ],
+        'stdClass' => [
+            'aliasMap' => [
+                2 => [
+                    'e' => 'App\\Entity\\Hotels',
+                ],
+            ],
+            'fieldMappings' => [
+                2 => [
+                    'id_0' => 'id',
+                    'name_1' => 'name',
+                    'address_2' => 'address',
+                    'city_3' => 'city',
+                    'description_4' => 'description',
+                    'file_hotel_5' => 'fileHotel',
+                ],
+            ],
+            'entityMappings' => [
+                2 => [
+                    'e' => null,
+                ],
+            ],
+            'columnOwnerMap' => [
+                2 => [
+                    'id_0' => 'e',
+                    'name_1' => 'e',
+                    'address_2' => 'e',
+                    'city_3' => 'e',
+                    'description_4' => 'e',
+                    'file_hotel_5' => 'e',
+                ],
+            ],
+            'declaringClasses' => [
+                2 => [
+                    'id_0' => 'App\\Entity\\Hotels',
+                    'name_1' => 'App\\Entity\\Hotels',
+                    'address_2' => 'App\\Entity\\Hotels',
+                    'city_3' => 'App\\Entity\\Hotels',
+                    'description_4' => 'App\\Entity\\Hotels',
+                    'file_hotel_5' => 'App\\Entity\\Hotels',
+                ],
+            ],
+        ],
+    ],
+    $o[0],
+    []
+); }];

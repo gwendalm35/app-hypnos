@@ -1,0 +1,104 @@
+<?php //ff53f2715f07dd96d21c08023e202ee8
+
+return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+    $o = [
+        clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Query\\ParserResult'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Query\\ParserResult')),
+        clone ($p['Doctrine\\ORM\\Query\\Exec\\SingleSelectExecutor'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Query\\Exec\\SingleSelectExecutor')),
+        clone ($p['Doctrine\\ORM\\Query\\ResultSetMapping'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Query\\ResultSetMapping')),
+    ],
+    null,
+    [
+        'Doctrine\\ORM\\Query\\ParserResult' => [
+            '_sqlExecutor' => [
+                $o[1],
+            ],
+            '_resultSetMapping' => [
+                $o[2],
+            ],
+            '_parameterMappings' => [
+                [
+                    'hotel' => [
+                        0,
+                    ],
+                    'hotelRooms' => [
+                        1,
+                    ],
+                    'startDateFrom' => [
+                        2,
+                        6,
+                    ],
+                    'startDateTo' => [
+                        3,
+                    ],
+                    'endDateFrom' => [
+                        4,
+                    ],
+                    'endDateTo' => [
+                        5,
+                        7,
+                    ],
+                ],
+            ],
+        ],
+        'Doctrine\\ORM\\Query\\Exec\\AbstractSqlExecutor' => [
+            '_sqlStatements' => [
+                1 => 'SELECT r0_.id AS id_0, r0_.start_date AS start_date_1, r0_.end_date AS end_date_2, r0_.total_price AS total_price_3, r0_.users_id AS users_id_4, r0_.hotels_id AS hotels_id_5, r0_.hotel_rooms_id AS hotel_rooms_id_6 FROM reservation_rooms r0_ INNER JOIN hotels h1_ ON r0_.hotels_id = h1_.id INNER JOIN hotel_rooms h2_ ON r0_.hotel_rooms_id = h2_.id WHERE h1_.id = ? AND h2_.id = ? AND ((r0_.start_date BETWEEN ? AND ?) OR (r0_.end_date BETWEEN ? AND ?) OR (r0_.start_date < ? AND r0_.end_date > ?))',
+            ],
+        ],
+        'stdClass' => [
+            'aliasMap' => [
+                2 => [
+                    'b' => 'App\\Entity\\ReservationRooms',
+                ],
+            ],
+            'fieldMappings' => [
+                2 => [
+                    'id_0' => 'id',
+                    'start_date_1' => 'start_date',
+                    'end_date_2' => 'end_date',
+                    'total_price_3' => 'totalPrice',
+                ],
+            ],
+            'typeMappings' => [
+                2 => [
+                    'users_id_4' => 'integer',
+                    'hotels_id_5' => 'integer',
+                    'hotel_rooms_id_6' => 'integer',
+                ],
+            ],
+            'entityMappings' => [
+                2 => [
+                    'b' => null,
+                ],
+            ],
+            'metaMappings' => [
+                2 => [
+                    'users_id_4' => 'users_id',
+                    'hotels_id_5' => 'hotels_id',
+                    'hotel_rooms_id_6' => 'hotel_rooms_id',
+                ],
+            ],
+            'columnOwnerMap' => [
+                2 => [
+                    'id_0' => 'b',
+                    'start_date_1' => 'b',
+                    'end_date_2' => 'b',
+                    'total_price_3' => 'b',
+                    'users_id_4' => 'b',
+                    'hotels_id_5' => 'b',
+                    'hotel_rooms_id_6' => 'b',
+                ],
+            ],
+            'declaringClasses' => [
+                2 => [
+                    'id_0' => 'App\\Entity\\ReservationRooms',
+                    'start_date_1' => 'App\\Entity\\ReservationRooms',
+                    'end_date_2' => 'App\\Entity\\ReservationRooms',
+                    'total_price_3' => 'App\\Entity\\ReservationRooms',
+                ],
+            ],
+        ],
+    ],
+    $o[0],
+    []
+); }];
