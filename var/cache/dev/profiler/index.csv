@@ -601,3 +601,6 @@ d0bb7a,::1,GET,http://test.localhost/reservation,1650204712,,200
 465ee7,::1,GET,http://test.localhost/,1650204756,,200
 3cd6da,::1,GET,http://test.localhost/nos-hotels,1650204758,,200
 e99759,::1,GET,http://test.localhost/nos-suites/6,1650204759,,200
+095e7c,::1,GET,http://test.localhost/,1650211293,,200
+d3f7ba,::1,GET,http://test.localhost/nos-hotels,1650211295,,200
+274596,::1,GET,http://test.localhost/nos-suites/6,1650211298,,200
