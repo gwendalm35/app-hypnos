@@ -8,6 +8,7 @@
 /vendor/
 build
 uploads
+vich/uploader-bundle
 ###< symfony/framework-bundle ###
 
 ###> symfony/webpack-encore-bundle ###
