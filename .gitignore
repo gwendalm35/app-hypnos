@@ -6,6 +6,8 @@
 /config/secrets/prod/prod.decrypt.private.php
 /var/
 /vendor/
+build
+uploads
 ###< symfony/framework-bundle ###
 
 ###> symfony/webpack-encore-bundle ###
