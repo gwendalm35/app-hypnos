@@ -159,6 +159,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -166,6 +168,11 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "yarn",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -192,6 +199,8 @@
       <workItem from="1650203293570" duration="2442000" />
       <workItem from="1650211245834" duration="4809000" />
       <workItem from="1650236474122" duration="3639000" />
+      <workItem from="1650240149712" duration="2123000" />
+      <workItem from="1650243204345" duration="2278000" />
     </task>
     <servers />
   </component>

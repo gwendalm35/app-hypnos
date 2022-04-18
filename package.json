@@ -25,7 +25,8 @@
     "dependencies": {
         "ckeditor4": "^4.13.0",
         "cloudinary-react": "^1.7.2",
-        "js-datepicker": "^5.18.0"
+        "js-datepicker": "^5.18.0",
+        "mysql2": "^2.3.3"
     },
     "engines": {
         "node": "16.13.1",
