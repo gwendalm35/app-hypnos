@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'ea9d62e1a06980e8e9f9955df6f5e9a7d8d4defa',
+        'reference' => '2cb1e3d544b33978e44d6dbdf5420353b55e56ae',
         'name' => '__root__',
         'dev' => true,
     ),
@@ -16,7 +16,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'ea9d62e1a06980e8e9f9955df6f5e9a7d8d4defa',
+            'reference' => '2cb1e3d544b33978e44d6dbdf5420353b55e56ae',
             'dev_requirement' => false,
         ),
         'aws/aws-crt-php' => array(
