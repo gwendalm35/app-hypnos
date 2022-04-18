@@ -8,6 +8,7 @@ use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
 use JetBrains\PhpStorm\Pure;
 use Symfony\Component\HttpFoundation\File\File;
+use Vich\UploaderBundle\VichUploaderBundle;
 use Vich\UploaderBundle\Mapping\Annotation as Vich;
 
 #[ORM\Entity(repositoryClass: HotelRoomsRepository::class)]
