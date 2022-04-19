@@ -12,10 +12,10 @@ use Vich\UploaderBundle\VichUploaderBundle;
 use Vich\UploaderBundle\Mapping\Annotation as Vich;
 
 #[ORM\Entity(repositoryClass: HotelsRepository::class)]
-//**
- //* @property \DateTime $createdAt
-// * @Vich\Uploadable()
- //*/
+/**
+ * @property \DateTime $createdAt
+ * @Vich\Uploadable()
+ */
 class Hotels
 {
     #[ORM\Id]
@@ -56,10 +56,10 @@ class Hotels
     }
 
 
-    //**
-    // * @Vich\UploadableField(mapping="attachments", fileNameProperty="fileHotel")
-    // * @var File|null
-     //*/
+    /**
+     * @Vich\UploadableField(mapping="attachments", fileNameProperty="fileHotel")
+     * @var File|null
+     */
     private $imageFiles;
 
 

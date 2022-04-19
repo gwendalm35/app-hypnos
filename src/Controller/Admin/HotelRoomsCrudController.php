@@ -4,7 +4,6 @@ namespace App\Controller\Admin;
 
 use App\Entity\HotelRooms;
 use App\Entity\Users;
-use App\Form\AttachmentType;
 use Doctrine\ORM\EntityManagerInterface;
 use Doctrine\ORM\QueryBuilder;
 use EasyCorp\Bundle\EasyAdminBundle\Collection\FieldCollection;
@@ -16,8 +15,6 @@ use EasyCorp\Bundle\EasyAdminBundle\Controller\AbstractCrudController;
 use EasyCorp\Bundle\EasyAdminBundle\Dto\EntityDto;
 use EasyCorp\Bundle\EasyAdminBundle\Dto\SearchDto;
 use EasyCorp\Bundle\EasyAdminBundle\Field\AssociationField;
-use EasyCorp\Bundle\EasyAdminBundle\Field\CollectionField;
-use EasyCorp\Bundle\EasyAdminBundle\Field\Field;
 use EasyCorp\Bundle\EasyAdminBundle\Field\ImageField;
 use EasyCorp\Bundle\EasyAdminBundle\Field\NumberField;
 use EasyCorp\Bundle\EasyAdminBundle\Field\TextareaField;
@@ -85,8 +82,8 @@ class HotelRoomsCrudController extends AbstractCrudController
                             ->setParameter('hotel', $hotels);
                 }),
             AssociationField::new('images'),
-            //TextField::new('imageFile')->setFormType(VichImageType::class)->onlyWhenCreating(),
-            //ImageField::new('file')->setBasePath('/img/Room')->onlyOnIndex(),
+            TextField::new('imageFile')->setFormType(VichImageType::class)->onlyWhenCreating(),
+            ImageField::new('file')->setBasePath('/img/Room')->onlyOnIndex(),
         ];
     }
 }

@@ -3,18 +3,14 @@
 namespace App\Controller\Admin;
 
 use App\Entity\Hotels;
-use App\Entity\Users;
 use EasyCorp\Bundle\EasyAdminBundle\Config\Action;
 use EasyCorp\Bundle\EasyAdminBundle\Config\Actions;
 use EasyCorp\Bundle\EasyAdminBundle\Config\Crud;
 use EasyCorp\Bundle\EasyAdminBundle\Controller\AbstractCrudController;
 use EasyCorp\Bundle\EasyAdminBundle\Field\AssociationField;
-use EasyCorp\Bundle\EasyAdminBundle\Field\TextareaField;
 use EasyCorp\Bundle\EasyAdminBundle\Field\ImageField;
 use EasyCorp\Bundle\EasyAdminBundle\Field\TextField;
-use Symfony\Component\HttpFoundation\File\UploadedFile;
 use Vich\UploaderBundle\Form\Type\VichImageType;
-use Vich\UploaderBundle\Mapping\Annotation as Vich;
 
 class HotelsCrudController extends AbstractCrudController
 {
@@ -56,11 +52,11 @@ class HotelsCrudController extends AbstractCrudController
                         ->andWhere('entity.roles LIKE :role')
                         ->setParameter('role', '%ROLE_GERANT%');
                 }),
-            //TextField::new('imageFiles' , '')->setFormType(VichImageType::class),
-            //ImageField::new('fileHotel','image hotel')
-              //  ->setBasePath('/img/Hotel')
-               // ->setUploadedFileNamePattern('[contenthash].[extension]')
-                //->onlyOnIndex(),
+            TextField::new('imageFiles' , '')->setFormType(VichImageType::class),
+            ImageField::new('fileHotel','image hotel')
+                ->setBasePath('/img/Hotel')
+                ->setUploadedFileNamePattern('[contenthash].[extension]')
+                ->onlyOnIndex(),
 
 
         ];

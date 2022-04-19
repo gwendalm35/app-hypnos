@@ -143,7 +143,6 @@
       <path value="$PROJECT_DIR$/vendor/symfony/web-link" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn" />
       <path value="$PROJECT_DIR$/vendor/symfony/proxy-manager-bridge" />
-      <path value="$PROJECT_DIR$/vendor/vich/uploader-bundle" />
       <path value="$PROJECT_DIR$/vendor/jms/metadata" />
       <path value="$PROJECT_DIR$/vendor/behat/transliterator" />
       <path value="$PROJECT_DIR$/vendor/stof/doctrine-extensions-bundle" />
@@ -166,6 +165,7 @@
       <path value="$PROJECT_DIR$/vendor/matthiasnoback/symfony-dependency-injection-test" />
       <path value="$PROJECT_DIR$/vendor/matthiasnoback/symfony-config-test" />
       <path value="$PROJECT_DIR$/vendor/symfony/phpunit-bridge" />
+      <path value="$PROJECT_DIR$/vendor/vich/uploader-bundle" />
     </include_path>
   </component>
   <component name="ProblemsViewState">
@@ -223,7 +223,7 @@
       <workItem from="1650243204345" duration="3379000" />
       <workItem from="1650271372078" duration="34547000" />
       <workItem from="1650328593365" duration="816000" />
-      <workItem from="1650397875587" duration="9402000" />
+      <workItem from="1650397875587" duration="9793000" />
     </task>
     <servers />
   </component>
