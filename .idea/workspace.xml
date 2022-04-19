@@ -159,6 +159,9 @@
       <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
       <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
       <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/league/mime-type-detection" />
+      <path value="$PROJECT_DIR$/vendor/league/flysystem-bundle" />
+      <path value="$PROJECT_DIR$/vendor/league/flysystem" />
     </include_path>
   </component>
   <component name="ProblemsViewState">
@@ -216,7 +219,7 @@
       <workItem from="1650243204345" duration="3379000" />
       <workItem from="1650271372078" duration="34547000" />
       <workItem from="1650328593365" duration="816000" />
-      <workItem from="1650397875587" duration="2612000" />
+      <workItem from="1650397875587" duration="3781000" />
     </task>
     <servers />
   </component>

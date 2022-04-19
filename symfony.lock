@@ -125,6 +125,34 @@
     "laminas/laminas-code": {
         "version": "4.5.1"
     },
+    "league/flysystem": {
+        "version": "3.0.17"
+    },
+    "league/flysystem-bundle": {
+        "version": "2.2",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "master",
+            "version": "1.0",
+            "ref": "913dc3d7a5a1af0d2b044c5ac3a16e2f851d7380"
+        },
+        "files": [
+            "./config/packages/flysystem.yaml",
+            "./var/storage/.gitignore"
+        ]
+    },
+    "league/flysystem-memory": {
+        "version": "3.0.14"
+    },
+    "league/mime-type-detection": {
+        "version": "1.11.0"
+    },
+    "matthiasnoback/symfony-config-test": {
+        "version": "4.3.0"
+    },
+    "matthiasnoback/symfony-dependency-injection-test": {
+        "version": "4.3.0"
+    },
     "monolog/monolog": {
         "version": "2.5.0"
     },
@@ -395,6 +423,21 @@
     },
     "symfony/password-hasher": {
         "version": "v6.0.3"
+    },
+    "symfony/phpunit-bridge": {
+        "version": "6.0",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "master",
+            "version": "5.3",
+            "ref": "97cb3dc7b0f39c7cfc4b7553504c9d7b7795de96"
+        },
+        "files": [
+            "./.env.test",
+            "./bin/phpunit",
+            "./phpunit.xml.dist",
+            "./tests/bootstrap.php"
+        ]
     },
     "symfony/polyfill-intl-grapheme": {
         "version": "v1.25.0"
