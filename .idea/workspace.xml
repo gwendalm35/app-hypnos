@@ -162,6 +162,10 @@
       <path value="$PROJECT_DIR$/vendor/league/mime-type-detection" />
       <path value="$PROJECT_DIR$/vendor/league/flysystem-bundle" />
       <path value="$PROJECT_DIR$/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/vendor/league/flysystem-memory" />
+      <path value="$PROJECT_DIR$/vendor/matthiasnoback/symfony-dependency-injection-test" />
+      <path value="$PROJECT_DIR$/vendor/matthiasnoback/symfony-config-test" />
+      <path value="$PROJECT_DIR$/vendor/symfony/phpunit-bridge" />
     </include_path>
   </component>
   <component name="ProblemsViewState">
@@ -219,7 +223,7 @@
       <workItem from="1650243204345" duration="3379000" />
       <workItem from="1650271372078" duration="34547000" />
       <workItem from="1650328593365" duration="816000" />
-      <workItem from="1650397875587" duration="3781000" />
+      <workItem from="1650397875587" duration="7721000" />
     </task>
     <servers />
   </component>

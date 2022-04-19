@@ -27,7 +27,8 @@
         "cloudinary-react": "^1.7.2",
         "download": "^8.0.0",
         "js-datepicker": "^5.18.0",
-        "mysql2": "^2.3.3"
+        "mysql2": "^2.3.3",
+        "react-simple-file-upload": "^0.4.0"
     },
     "engines": {
         "node": "16.13.1",
