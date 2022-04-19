@@ -1,9 +1,9 @@
 vich_uploader:
     db_driver: orm
 
-    images_directory:
-        uri_prefix: '/img/Room'
-        upload_destination: '%kernel.project_dir%/public/img/Room'
-    attachments:
-        uri_prefix: '/img/Hotel'
-        upload_destination: '%kernel.project_dir%/public/img/Hotel'
+    #images_directory:
+     #   uri_prefix: '/img/Room'
+      #  upload_destination: '%kernel.project_dir%/public/img/Room'
+    #attachments:
+     #   uri_prefix: '/img/Hotel'
+      #  upload_destination: '%kernel.project_dir%/public/img/Hotel'
