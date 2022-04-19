@@ -57,12 +57,12 @@ class HotelRoomsAdminsCrudController extends AbstractCrudController
             TextField::new('booking_link', 'URL booking'),
             AssociationField::new('hotels', 'Hôtel'),
             AssociationField::new('images', 'galerie d\'image'),
-            TextField::new('imageFile')
-                ->setFormType(VichImageType::class),
-            ImageField::new('file','image principale')
-                ->setBasePath('/img/Room')
-                ->setUploadedFileNamePattern('[contenthash].[extension]')
-                ->onlyOnIndex(),
+            //TextField::new('imageFile')
+              //  ->setFormType(VichImageType::class),
+            //ImageField::new('file','image principale')
+              //  ->setBasePath('/img/Room')
+                //->setUploadedFileNamePattern('[contenthash].[extension]')
+                //->onlyOnIndex(),
 
 
 

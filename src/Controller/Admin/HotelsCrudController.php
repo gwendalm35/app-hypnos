@@ -56,11 +56,11 @@ class HotelsCrudController extends AbstractCrudController
                         ->andWhere('entity.roles LIKE :role')
                         ->setParameter('role', '%ROLE_GERANT%');
                 }),
-            TextField::new('imageFiles' , '')->setFormType(VichImageType::class),
-            ImageField::new('fileHotel','image hotel')
-                ->setBasePath('/img/Hotel')
-                ->setUploadedFileNamePattern('[contenthash].[extension]')
-                ->onlyOnIndex(),
+            //TextField::new('imageFiles' , '')->setFormType(VichImageType::class),
+            //ImageField::new('fileHotel','image hotel')
+              //  ->setBasePath('/img/Hotel')
+               // ->setUploadedFileNamePattern('[contenthash].[extension]')
+                //->onlyOnIndex(),
 
 
         ];

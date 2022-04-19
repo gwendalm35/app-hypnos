@@ -85,8 +85,8 @@ class HotelRoomsCrudController extends AbstractCrudController
                             ->setParameter('hotel', $hotels);
                 }),
             AssociationField::new('images'),
-            TextField::new('imageFile')->setFormType(VichImageType::class)->onlyWhenCreating(),
-            ImageField::new('file')->setBasePath('/img/Room')->onlyOnIndex(),
+            //TextField::new('imageFile')->setFormType(VichImageType::class)->onlyWhenCreating(),
+            //ImageField::new('file')->setBasePath('/img/Room')->onlyOnIndex(),
         ];
     }
 }

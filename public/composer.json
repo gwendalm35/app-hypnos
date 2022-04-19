@@ -103,7 +103,6 @@
         "symfony/debug-bundle": "6.0.*",
         "symfony/maker-bundle": "^1.0",
         "symfony/stopwatch": "6.0.*",
-        "symfony/web-profiler-bundle": "6.0.*",
-        "vich/uploader-bundle": "^1.19"
+        "symfony/web-profiler-bundle": "6.0.*"
     }
 }
