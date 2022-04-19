@@ -161,6 +161,9 @@
       <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
     </include_path>
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="27fhUJOxOZNQLpUk9yyB2H8jm4A" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -211,7 +214,7 @@
       <workItem from="1650236474122" duration="3639000" />
       <workItem from="1650240149712" duration="2123000" />
       <workItem from="1650243204345" duration="3379000" />
-      <workItem from="1650271372078" duration="32208000" />
+      <workItem from="1650271372078" duration="33580000" />
     </task>
     <servers />
   </component>

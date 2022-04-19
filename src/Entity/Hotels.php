@@ -12,7 +12,6 @@ use Vich\UploaderBundle\VichUploaderBundle;
 use Vich\UploaderBundle\Mapping\Annotation as Vich;
 
 #[ORM\Entity(repositoryClass: HotelsRepository::class)]
-#[Vich\Uploadable]
 /**
  * @property \DateTime $createdAt
  * @Vich\Uploadable()
