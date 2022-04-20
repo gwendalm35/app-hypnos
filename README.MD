@@ -29,7 +29,7 @@ L'environnement technique
 
 
 ## 3. Procédure de mise en place
-`git clone https://github.com/gwendalm35/app-test.git`
+`git clone https://github.com/gwendalm35/app-hypnos.git`
 ___
 `composer install`
 ___
