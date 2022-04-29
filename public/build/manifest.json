@@ -1,10 +1,13 @@
 {
-  "build/app.css": "/build/app.b7ce1eed.css",
-  "build/app.js": "/build/app.50ab8ef8.js",
-  "build/runtime.js": "/build/runtime.9a71ee5d.js",
-  "build/484.cd95c96d.js": "/build/484.cd95c96d.js",
-  "build/images/img-backgroundend.webp": "/build/images/img-backgroundend.3474363a.webp",
-  "build/images/img-homepage.webp": "/build/images/img-homepage.f447db3f.webp",
-  "build/fonts/Antique-Regular.otf": "/build/fonts/Antique-Regular.e3ded4cd.otf",
-  "build/fonts/Archane.woff2": "/build/fonts/Archane.3c5f12db.woff2"
+  "build/app.css": "http://localhost:8080/build/app.css",
+  "build/app.js": "http://localhost:8080/build/app.js",
+  "build/runtime.js": "http://localhost:8080/build/runtime.js",
+  "build/vendors-node_modules_symfony_stimulus-bridge_dist_index_js-node_modules_bootstrap_dist_js_boo-6ca69d.js": "http://localhost:8080/build/vendors-node_modules_symfony_stimulus-bridge_dist_index_js-node_modules_bootstrap_dist_js_boo-6ca69d.js",
+  "build/images/accueil5.jpg": "http://localhost:8080/build/images/accueil5.b8a246cb.jpg",
+  "build/images/accueil6.webp": "http://localhost:8080/build/images/accueil6.b2f0a95a.webp",
+  "build/fonts/Antique-Regular.otf": "http://localhost:8080/build/fonts/Antique-Regular.e3ded4cd.otf",
+  "build/fonts/Archane.woff2": "http://localhost:8080/build/fonts/Archane.3c5f12db.woff2",
+  "build/images/contact3.jpg": "http://localhost:8080/build/images/contact3.42890b43.jpg",
+  "build/images/contact8.png": "http://localhost:8080/build/images/contact8.31deb50d.png",
+  "build/images/contact.jpg": "http://localhost:8080/build/images/contact.eb9f7e7a.jpg"
 }

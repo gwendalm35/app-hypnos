@@ -1,6 +1,3 @@
-{# @var ea \EasyCorp\Bundle\EasyAdminBundle\Context\AdminContext #}
-{# @var field \EasyCorp\Bundle\EasyAdminBundle\Dto\FieldDto #}
-{# @var entity \EasyCor{# p\Bundle\EasyAdminBundle\Dto\EntityDto #}
 {% if 'toMany' == field.customOptions.get('associationType') %}
     {% if 'detail' == ea.crud.currentPage %}
         {% set maxLi = field.customOptions.get('maxLi')  ?? 4 %}

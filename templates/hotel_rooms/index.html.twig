@@ -62,25 +62,27 @@
 
         {% for poom in hotelrooms %}
 
-        <div class="modal fade" id="N{{ poom.id }}" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal fade" id="N{{ poom.id }}" data-bs-backdrop="static" data-bs-keyboard="false"
+             tabindex="-1" aria-labelledby="myModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-lg" role="document">
-
                 <div class="modal-content">
                     <div class="modal-body mb-0 p-0 container-fluid">
                             <div class="col-md-5 my-5">
                                     <div class="carousel-inner">
                                             <div class="carousel-item active ">
                                                 {% for image in poom.images %}
-                                                <img class="d-block w-100 img-fluid" src="{{ asset('img/HotelRoom/'~ image.bin) }}" alt="image">
+                                                <img class="d-block w-100 img-fluid"
+                                                     src="{{ asset('img/HotelRoom/'~ image.bin) }}"
+                                                     alt="image">
                                                     <br>
                                                 {% endfor %}
                                             </div>
                                     </div>
-
                             </div>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-secondary"
+                                data-bs-dismiss="modal">Close</button>
                     </div>
                 </div>
             </div>
