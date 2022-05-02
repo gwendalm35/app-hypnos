@@ -31,7 +31,7 @@ ___
 
 ## Pour la version en ligne:
 
-Mail admin: `admin@hypnos.com` mdp admin: `Azerty10`
-Mail gérant: `gerant1@hypnos.com` mdp gérant: `Azerty10`
-Mail client: `client1@hypnos.com` mdp client: `Azerty10`
-Pour le client vous pouvez aussi le créé vous même. 
+- Mail admin: `admin@hypnos.com` mdp admin: `Azerty10`
+- Mail gérant: `gerant1@hypnos.com` mdp gérant: `Azerty10`
+- Mail client: `client1@hypnos.com` mdp client: `Azerty10`
+- Pour le client vous pouvez aussi le créé vous même. 
