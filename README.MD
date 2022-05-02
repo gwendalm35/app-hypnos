@@ -29,7 +29,7 @@ ___
 - `git push heroku master` ou `git push heroku main`
 
 
-#Pour la version en ligne:
+## Pour la version en ligne:
 
 Mail admin: `admin@hypnos.com` mdp admin: `Azerty10`
 Mail gérant: `gerant1@hypnos.com` mdp gérant: `Azerty10`
